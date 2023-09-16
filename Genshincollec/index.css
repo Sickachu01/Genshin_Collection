@@ -1,5 +1,5 @@
 .card {
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .card:hover {
@@ -7,7 +7,7 @@
 }
 
 .col {
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .col:hover {

@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liyue</title>
+    <link rel="icon" type="image/svg+xml" href="/picture/Geo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="bg-image " style="background-image: url('/picture/Liyue2.webp');">
+      <a href="index.html"><img class="mt-3" src="/picture/Liyue_logo.png" width="250" height="100"></a>
+      <div class="d-flex flex-wrap p-4 gap-3 mx-auto ">
+          <div class="card " style="width: 14rem;">
+            <img src="/picture/Zhongli.webp" height="200" width="200" class="card-img-top bg-warning "/>
+            <div class="card-body">
+              <h5 class="fs-4 card-title text-center">Zhongli</h5>
+              <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+            </div>
+            <div class="fs-5 card-footer text-center">
+              <a data-bs-toggle="modal" data-bs-target="#zhongli">More details</a>
+            </div>
+          </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Keqing.webp" height="200" width="200" class="card-img-top bg-primary"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Keqing</h5>
+             <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#keqing">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Ganyu.webp" height="200" width="200" class="card-img-top bg-info bg-opacity-75"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Ganyu</h5>
+             <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#ganyu">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Yelan.webp" height="200" width="200" class="card-img-top bg-primary bg-opacity-75"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Yelan</h5>
+             <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#yelan">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/HuTao.webp" height="200" width="200" class="card-img-top bg-danger "/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">HuTao</h5>
+             <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#hutao">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Baizhu.webp" height="200" width="200" class="card-img-top bg-success bg-opacity-80"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Baizhu</h5>
+             <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#baizhu">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Qiqi.webp" height="200" width="200" class="card-img-top bg-info bg-opacity-75"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Qiqi</h5>
+             <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#qiqi">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Shenhe.webp" height="200" width="200" class="card-img-top bg-info bg-opacity-75"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Shenhe</h5>
+             <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#shenhe">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Tartaglia.webp" height="200" width="200" class="card-img-top bg-primary bg-opacity-75"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Tartaglia</h5>
+             <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#tartaglia">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Xiao.webp" height="200" width="200" class="card-img-top bg-secondary bg-opacity-75"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Xiao</h5>
+             <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#xiao">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Chongyun.webp" height="200" width="200" class="card-img-top bg-info bg-opacity-75"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Chongyun</h5>
+             <img class="rounded mx-auto d-block" src="/picture/4 Star.png" width="120" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#chongyun">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Beidou.webp" height="200" width="200" class="card-img-top bg-primary"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Beidou</h5>
+             <img class="rounded mx-auto d-block" src="/picture/4 Star.png" width="120" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#beidou">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Ningguang.webp" height="200" width="200" class="card-img-top bg-warning "/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Ningguang</h5>
+             <img class="rounded mx-auto d-block" src="/picture/4 Star.png" width="120" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#ningguang">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Xiangling.webp" height="200" width="200" class="card-img-top bg-danger "/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Xiangling</h5>
+             <img class="rounded mx-auto d-block" src="/picture/4 Star.png" width="120" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#xiangling">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Xinyan.webp" height="200" width="200" class="card-img-top bg-danger "/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Xinyan</h5>
+             <img class="rounded mx-auto d-block" src="/picture/4 Star.png" width="120" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#xinyan">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Xingqiu.webp" height="200" width="200" class="card-img-top bg-primary bg-opacity-75"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Xingqiu</h5>
+             <img class="rounded mx-auto d-block" src="/picture/4 Star.png" width="120" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#xingqiu">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Yanfei.webp" height="200" width="200" class="card-img-top bg-danger "/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Yanfei</h5>
+             <img class="rounded mx-auto d-block" src="/picture/4 Star.png" width="120" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#yanfei">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Yaoyao.webp" height="200" width="200" class="card-img-top bg-success bg-opacity-80"/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Yaoyao</h5>
+             <img class="rounded mx-auto d-block" src="/picture/4 Star.png" width="120" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#yaoyao">More details</a>
+           </div>
+         </div>
+         <div class="card " style="width: 14rem;">
+           <img src="/picture/Yunjin.webp" height="200" width="200" class="card-img-top bg-warning "/>
+           <div class="card-body">
+             <h5 class="fs-4 card-title text-center">Yunjin</h5>
+             <img class="rounded mx-auto d-block" src="/picture/4 Star.png" width="120" height="40">
+           </div>
+           <div class="fs-5 card-footer text-center">
+             <a data-bs-toggle="modal" data-bs-target="#yunjin">More details</a>
+           </div>
+         </div>
+      </div>
+    </section>
+    <div class="modal fade" id="zhongli">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-title fs-1 fw-bold"><img src="/picture/Geo.png" width="50" height="50">Zhongli</div>
+              <div>
+                <div class="fs-5 "><b>ModelType:</b> Tall Male</div>
+                <div class="fs-5 "><b>Birthay:</b> December 31st</div>
+                <div class="fs-5 "><b>Region:</b> Liyue</div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+                <div class="col">
+                  <img src="/picture/Zhongli1.webp" width="100%" height="100%"/>
+                </div>
+                <div class="col">
+                  <img src="/picture/Zhongli2.webp" width="100%" height="100%" />
+                </div>
+              </div>
+                <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                    <div class="card " style="width: 15rem;">
+                        <div class="fs-4 fw-bold text-center">Rarity</div>
+                        <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                    </div>
+                    <div class="card " style="width: 15rem;">
+                        <div class="fs-4 fw-bold text-center">Weapon</div>
+                        <div class="fs-4 text-center"><img src="/picture/Spear.webp" width="30" height="30"> Spear</div>
+                    </div>
+                    <div class="card " style="width: 15rem;">
+                        <div class="fs-4 fw-bold text-center">Gnosis</div>
+                        <div class="fs-4 text-center"><img src="/picture/Geo.png" width="30" height=30"> Geo</div>
+                    </div>
+                </div>
+                <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+                <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                    <div class="card " style="width: 11rem;">
+                        <div class="fs-4 fw-bold text-center">Main Dps</div>
+                        <img class="rounded mx-auto d-block" src="/picture/B.png" width="30" height="30">
+                    </div>
+                    <div class="card " style="width: 11rem;">
+                        <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                        <img class="rounded mx-auto d-block" src="/picture/B.png" width="30" height="30">
+                    </div>
+                    <div class="card " style="width: 11rem;">
+                        <div class="fs-4 fw-bold text-center">Support</div>
+                        <img class="rounded mx-auto d-block" src="/picture/SS.png" width="30" height=30">
+                    </div>
+                    <div class="card " style="width: 11rem;">
+                        <div class="fs-4 fw-bold text-center">Exploration</div>
+                        <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                    </div>
+                </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="keqing">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Electro.png" width="50" height="50">Keqing</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Female</div>
+              <div class="fs-5 "><b>Birthay:</b> November 20th</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Keqing1.webp" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/keqing2.webp" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Sword" width="30" height="30"> Sword</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Electro.png" width="30" height=30"> Electro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/A.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/B.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ganyu">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Cryo.png" width="50" height="50">Ganyu</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Female</div>
+              <div class="fs-5 "><b>Birthay:</b> December 2nd</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/ganyu1.webp" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/ganyu2.jpg" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/bow" width="30" height="30"> Bow</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Cryo.png" width="30" height=30"> Cryo</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/A.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/B.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="yelan">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Hydro.png" width="50" height="50">Yelan</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Tall Female</div>
+              <div class="fs-5 "><b>Birthay:</b> April 20th</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Yelan1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Yelan2.jpg" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/bow" width="30" height="30"> Bow</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Hydro.png" width="30" height=30"> Hydro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/SS.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/SS.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="hutao">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Pyro.png" width="50" height="50">HuTao</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Female</div>
+              <div class="fs-5 "><b>Birthay:</b> July 15th</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Hutao1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Hutao2.jpg" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Spear.webp" width="30" height="30"> Spear</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Pyro.png" width="30" height=30"> Pyro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="baizhu">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Dendro.png" width="50" height="50">Baizhu</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Tall Male</div>
+              <div class="fs-5 "><b>Birthay:</b> April 25th</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/baizhu1.webp" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/baizhu2.jpg" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Catalyst.png" width="30" height="30"> Catalyst</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Dendro.png" width="30" height=30"> Dendro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="qiqi">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Cryo.png" width="50" height="50">Qiqi</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Short Female</div>
+              <div class="fs-5 "><b>Birthay:</b> March 3rd</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Qiqi1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Qiqi2.webp" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Sword" width="30" height="30"> Sword</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Cryo.png" width="30" height=30"> Cryo</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/B.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/B.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="shenhe">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Cryo.png" width="50" height="50">Shenhe</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Tall Female</div>
+              <div class="fs-5 "><b>Birthay:</b> March 10</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Shenhe1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Shenhe2.jpg" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Spear.webp" width="30" height="30"> Spear</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Cryo.png" width="30" height=30"> Cryo</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="tartaglia">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Hydro.png" width="50" height="50">Tartaglia</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Tall Male</div>
+              <div class="fs-5 "><b>Birthay:</b> July 20</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Tartaglia1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Tartaglia2.webp" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Bow" width="30" height="30"> Bow</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Hydro.png" width="30" height=30"> Hydro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/SS.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="xiao">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Anemo.png" width="50" height="50">Xiao</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Male</div>
+              <div class="fs-5 "><b>Birthay:</b> April 17</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Xiao1.png" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Xiao2.webp" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/5 star.png" width="150" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Spear.webp" width="30" height="30"> Spear</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Anemo.png" width="30" height=30"> Anemo</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/S.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/SS.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="chongyun">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Cryo.png" width="50" height="50">Chongyun</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Male</div>
+              <div class="fs-5 "><b>Birthay:</b> September 7</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Chongyun1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Chongyun2.png" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/4 star.png" width="120" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Great Sword" width="30" height="30"> Great Sword</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Cryo.png" width="30" height=30"> Cryo</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/A.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="beidou">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Electro.png" width="50" height="50">Beidou</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Female</div>
+              <div class="fs-5 "><b>Birthay:</b> February 14</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Beidou1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Beidou2.webp" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/4 star.png" width="120" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Great Sword" width="30" height="30"> Great Sword</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Electro.png" width="30" height=30"> Electro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/A.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/B.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/A.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="ningguang">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Geo.png" width="50" height="50">Ningguang</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Tall Female</div>
+              <div class="fs-5 "><b>Birthay:</b> August 26</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Ningguang1.webp" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Ningguang2.png" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/4 star.png" width="120" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Catalyst.png" width="30" height="30"> Catalyst</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Geo.png" width="30" height=30"> Geo</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/B.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="xiangling">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Pyro.png" width="50" height="50">Xiangling</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Female</div>
+              <div class="fs-5 "><b>Birthay:</b> November 2</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Xiangling1.webp" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Xiangling2.webp" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/4 star.png" width="120" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Spear.webp" width="30" height="30"> Spear</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Pyro.png" width="30" height=30"> Pyro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/A.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/SS.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/A.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="xinyan">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Pyro.png" width="50" height="50">Xinyan</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Female</div>
+              <div class="fs-5 "><b>Birthay:</b> October 16</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Xinyan1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Xinyan2.webp" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/4 star.png" width="120" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Great Sword" width="30" height="30"> Great Sword</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Pyro.png" width="30" height=30"> Pyro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/A.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="xingqiu">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Hydro.png" width="50" height="50">Xingqiu</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Male</div>
+              <div class="fs-5 "><b>Birthay:</b> October 9</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Xingqiu1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Xingqiu2.webp" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/4 star.png" width="120" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Sword" width="30" height="30"> Sword</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Hydro.png" width="30" height=30"> Hydro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/A.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/SS.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/A.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="yanfei">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Pyro.png" width="50" height="50">Yanfei</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Female</div>
+              <div class="fs-5 "><b>Birthay:</b> July 28</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Yanfei1.webp" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Yanfei2.jpg" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/4 star.png" width="120" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Catalyst.png" width="30" height="30"> Catalyst</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Pyro.png" width="30" height=30"> Pyro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/B.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/B.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="yaoyao">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Dendro.png" width="50" height="50">Yaoyao</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Short Female</div>
+              <div class="fs-5 "><b>Birthay:</b> March 6</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Yaoyao1.webp" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Yaoyao2.jpg" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/4 star.png" width="120" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Spear.webp" width="30" height="30"> Spear</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Dendro.png" width="30" height=30"> Dendro</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/B.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/B.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/A.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="yunjin">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title fs-1 fw-bold"><img src="/picture/Geo.png" width="50" height="50">Yunjin</div>
+            <div>
+              <div class="fs-5 "><b>ModelType:</b> Medium Female</div>
+              <div class="fs-5 "><b>Birthay:</b> May 21</div>
+              <div class="fs-5 "><b>Region:</b> Liyue</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-wrap justify-content-center p-2 gap-3 mx-auto ">
+              <div class="col">
+                <img src="/picture/Yunjin1.jpg" width="100%" height="100%"/>
+              </div>
+              <div class="col">
+                <img src="/picture/Yunjin2.webp" width="100%" height="100%" />
+              </div>
+            </div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Rarity</div>
+                      <img class="rounded mx-auto d-block" src="/picture/4 star.png" width="120" height="40">
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Weapon</div>
+                      <div class="fs-4 text-center"><img src="/picture/Spear.webp" width="30" height="30"> Spear</div>
+                  </div>
+                  <div class="card " style="width: 15rem;">
+                      <div class="fs-4 fw-bold text-center">Gnosis</div>
+                      <div class="fs-4 text-center"><img src="/picture/Geo.png" width="30" height=30"> Geo</div>
+                  </div>
+              </div>
+              <div class="fs-4 fw-bold text-center">Tier List Rankings</div>
+              <div class="d-flex flex-wrap justify-content-center p-2 gap-2 mx-auto">
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Main Dps</div>
+                      <img class="rounded mx-auto d-block " src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Sub Dps</div>
+                      <img class="rounded mx-auto d-block" src="/picture/D.png" width="30" height="30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Support</div>
+                      <img class="rounded mx-auto d-block" src="/picture/S.png" width="30" height=30">
+                  </div>
+                  <div class="card " style="width: 11rem;">
+                      <div class="fs-4 fw-bold text-center">Exploration</div>
+                      <img class="rounded mx-auto d-block" src="/picture/C.png" width="30" height=30">
+                  </div>
+              </div>
+            <div class="modal-footer">
+              <button button class="btn btn-secondary fs-5" data-bs-dismiss="modal">
+                ยกเลิก
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

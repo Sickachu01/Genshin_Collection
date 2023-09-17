@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,400&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+}
 .card {
     transition: 0.4s;
 }
@@ -12,4 +16,18 @@
 
 .col:hover {
     transform: scale(1.05);
+}
+
+.text {
+    position: absolute;
+    font-size: 5rem;
+    top: 75%;
+    left: 50%;
+}
+
+.bg-image{
+    background-size: cover;
+    overflow: scroll;
+    width: 100vw;
+    height: 100vh;
 }

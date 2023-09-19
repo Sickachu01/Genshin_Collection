@@ -18,6 +18,14 @@
     transform: scale(1.05);
 }
 
+.logo {
+    transition: 0.4s;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
 .text {
     position: absolute;
     font-size: 5rem;
